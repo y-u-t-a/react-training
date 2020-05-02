@@ -1,11 +1,15 @@
 import React from 'react'
+import {Breadcrumb} from 'react-bootstrap'
 
 export default class Users extends React.Component {
   render() {
     return (
       <div>
         <h2>ユーザー一覧</h2>
-        <a href="/">Top に戻る</a>
+        <Breadcrumb>
+          <Breadcrumb.Item href="/">Top</Breadcrumb.Item>
+          <Breadcrumb.Item active>Users</Breadcrumb.Item>
+        </Breadcrumb>
       </div>
     )
   }
