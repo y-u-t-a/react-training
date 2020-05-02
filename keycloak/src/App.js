@@ -1,14 +1,16 @@
 import React from 'react'
 import {BrowserRouter, Route} from 'react-router-dom'
 
-function App() {
-  return (
-    <BrowserRouter>
-      <Route exact path='/' component={Home} />
-      <Route path='/about' component={About} />
-      <Route path='/friends' component={Friends} />
-    </BrowserRouter>
-  )
+export default class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <Route exact path='/' component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/friends' component={Friends} />
+      </BrowserRouter>
+    )
+  }
 }
 
 const Home = () => (
@@ -30,6 +32,3 @@ const Friends = () => (
     <p>ここにフレンズのリストを書きます</p>
   </div>
 )
-
-
-export default App
