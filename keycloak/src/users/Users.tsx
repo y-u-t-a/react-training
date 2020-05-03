@@ -1,5 +1,5 @@
 import React from 'react'
-import {Breadcrumb} from 'react-bootstrap'
+import {Breadcrumb, BreadcrumbItem} from 'react-bootstrap'
 import UserList from './UserList'
 
 export default class Users extends React.Component {
@@ -8,8 +8,8 @@ export default class Users extends React.Component {
       <div>
         <h2>ユーザー一覧</h2>
         <Breadcrumb>
-          <Breadcrumb.Item href="/">Top</Breadcrumb.Item>
-          <Breadcrumb.Item active>Users</Breadcrumb.Item>
+          <BreadcrumbItem href="/">Top</BreadcrumbItem>
+          <BreadcrumbItem active>Users</BreadcrumbItem>
         </Breadcrumb>
         <UserList/>
       </div>
