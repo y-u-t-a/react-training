@@ -1,5 +1,5 @@
 import React from 'react'
-import {Table} from 'react-bootstrap'
+import { Table } from 'react-bootstrap'
 
 export default class UserList extends React.Component {
   render() {

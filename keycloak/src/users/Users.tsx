@@ -1,5 +1,5 @@
 import React from 'react'
-import {Breadcrumb, BreadcrumbItem} from 'react-bootstrap'
+import { Breadcrumb, BreadcrumbItem } from 'react-bootstrap'
 import UserList from './UserList'
 
 export default class Users extends React.Component {
