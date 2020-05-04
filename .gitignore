@@ -6,6 +6,7 @@ node_modules
 .pnp.js
 .lock
 package-lock.json
+react-app-env.d.ts
 
 # testing
 /coverage
