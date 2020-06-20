@@ -1,0 +1,8 @@
+{
+	"name": "Node & TypeScript",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"ms-vscode.vscode-typescript-tslint-plugin"
+	],
+	"remote.containers.workspaceMountConsistency": "delegated",
+}
